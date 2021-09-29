@@ -14,10 +14,22 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## ${data.description}
+  ## Description \n
+  ${data.description}
 
   ## ${"Table of Contents"}\n${"-- [Usage](#usage)"}\n${"-- [Credits](#credits)"}\n${"-- [License](#license)"}
 
+  ## Installation
+
+  ## Usage
+   
+  ## License
+
+  ## Contributing
+
+  ## Tests
+
+  ## Questions
 `;
 }
 
