@@ -46,7 +46,7 @@ ${userResponses.description}
   
 To install necessary dependencies, run the following command:
 
-  ${userResponses.installation}
+    ${userResponses.installation}
 
 ## Usage
 
@@ -54,7 +54,7 @@ ${userResponses.usage}
 
 ## License
 
-${userResponses.license}
+${userResponses.license} (2021) (Phil Bohn)
 
 ## Contributing
 
