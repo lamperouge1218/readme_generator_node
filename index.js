@@ -7,7 +7,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
     {
         type: "input",
-        message: "What is your name?",
+        message: "What is your first and last name?",
         name: "name",
         validate: function (answer) {
             if (answer.length < 1) {
