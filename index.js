@@ -106,32 +106,11 @@ const questions = [
 ];
 
 inquirer
-        .prompt(questions)
-        .then((userResponses) => {
-            console.log(userResponses);
-            writeToFile("README1.md", generateMarkdown(userResponses));
+    .prompt(questions)
+    .then((userResponses) => {
+        console.log(userResponses);
+        fs.writeFile("README1.md", generateMarkdown(userResponses), (err) =>
+            err ? console.error(err) : console.log("Success!"));
 
-        })
+    })
 
-// inquirer
-//     .prompt(questions)
-//     .then((userResponses) =>
-//         console.log(userResponses)
-//         );
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// // TODO: Create a function to initialize app
-// function init() {
-//     inquirer
-//         .prompt(questions)
-//         .then((userResponses) => {
-//             console.log(userResponses);
-//             writeToFile("README1.md", generateMarkdown(userResponses));
-
-//         })
-//     }
-
-
-// // Function call to initialize app
-// init();
