@@ -28,7 +28,7 @@ ${userResponses.description}
 
 ## Installation
   
-To install necessary dependencies, run the following command:
+To install necessary dependencies, run the following command:\n
   ${userResponses.installation}
 
 ## Usage
