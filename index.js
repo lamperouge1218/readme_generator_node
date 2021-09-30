@@ -18,7 +18,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "Describe your project.",
+        message: "Describe your project. Use as much room as needed.",
         name: "description",
         validate: function (answer) {
             if (answer.length < 1) {

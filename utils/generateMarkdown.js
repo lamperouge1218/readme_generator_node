@@ -14,36 +14,37 @@
 function generateMarkdown(userResponses) {
   return `# ${userResponses.title}
 
-  ## Description \n
-  ${userResponses.description}
+## Description 
 
-  ## Table of Contents\n
-    -- [Usage](#usage)\n
-    -- [Credits](#credits)\n
-    -- [License](#license)
+${userResponses.description}
 
-  ## Installation
+## Table of Contents
+-- [Usage](#usage)
+-- [Credits](#credits)
+-- [License](#license)
+
+## Installation
   
-  To install necessary dependencies, run the following command:
+To install necessary dependencies, run the following command:
   ${userResponses.installation}
 
-  ## Usage
-   ${userResponses.usage}
+## Usage
+${userResponses.usage}
 
-  ## License
-  ${userResponses.license}
+## License
+${userResponses.license}
 
 
-  ## Contributing
-  ${userResponses.contributing}
+## Contributing
+${userResponses.contributing}
 
-  ## Tests
-  ${userResponses.tests}
+## Tests
+${userResponses.tests}
 
-  ## Questions
-  If there any questions regarding this project, I can be contacted in the following places:
-  GitHub: ${userResponses.questions}
-  Email: ${userResponses.questions2}
+## Questions
+If there any questions regarding this project, I can be contacted in the following places:
+GitHub: [@${userResponses.questions}](https://github.com/${userResponses.questions})
+Email: ${userResponses.questions2}
 `;
 }
 
