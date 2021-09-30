@@ -22,7 +22,7 @@ function renderLicenseBadge(userResponses) {
 function generateMarkdown(userResponses) {
   return `# ${userResponses.title}  
 
-![License Badge](${renderLicenseBadge})
+![License Badge](${renderLicenseBadge(userResponses)})
 
 ## Description 
 
