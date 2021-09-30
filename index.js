@@ -105,6 +105,14 @@ const questions = [
     },
 ];
 
+inquirer
+        .prompt(questions)
+        .then((userResponses) => {
+            console.log(userResponses);
+            writeToFile("README1.md", generateMarkdown(userResponses));
+
+        })
+
 // inquirer
 //     .prompt(questions)
 //     .then((userResponses) =>
@@ -114,16 +122,16 @@ const questions = [
 // function writeToFile(fileName, data) {}
 
 // // TODO: Create a function to initialize app
-function init() {
-    inquirer
-        .prompt(questions)
-        .then((userResponses) => {
-            console.log(userResponses);
-            writeToFile("README1.md", generateMarkdown(userResponses));
+// function init() {
+//     inquirer
+//         .prompt(questions)
+//         .then((userResponses) => {
+//             console.log(userResponses);
+//             writeToFile("README1.md", generateMarkdown(userResponses));
 
-        })
-    }
+//         })
+//     }
 
 
 // // Function call to initialize app
-init();
+// init();
