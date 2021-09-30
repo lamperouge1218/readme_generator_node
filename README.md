@@ -1,10 +1,10 @@
-# README Generator  
+# Professional README Generator  
 
 ![License Badge](https://img.shields.io/badge/license-MIT-blue)
 
 ## Description 
 
-This project takes user input and generates professional READMEs
+Taking user input, generate a professional README.md file so that more time can be spent working on the project itself.
 
 ## Table of Contents
 
@@ -28,7 +28,7 @@ To install necessary dependencies, run the following command:
 
 ## Usage
 
-Answering questions provided by Inquirer, this data is then sent through to a markdown file and the README is generated. A license is picked as well and links to the user's GitHub and their email address are provided as well for further contact.
+Initiate the function with "node index.js". Once done, answer the questions sequentially. After user input is collected, README is generated and can be used in the project.
 
 ## License
 
