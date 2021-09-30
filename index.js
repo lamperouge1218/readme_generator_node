@@ -109,7 +109,7 @@ inquirer
     .prompt(questions)
     .then((userResponses) => {
         console.log(userResponses);
-        fs.writeFile("README.md", generateMarkdown(userResponses), (err) =>
+        fs.writeFile("README2.md", generateMarkdown(userResponses), (err) =>
             err ? console.error(err) : console.log("Success!"));
 
     })

@@ -1,6 +1,14 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-// function renderLicenseBadge(license) { }
+function renderLicenseBadge(userResponses) { 
+  if (userResponses.license === "MIT") {
+    return 
+  } else if (userResponses.license === "GNU GPLv3") {
+
+  } else if (userResponses.license === "Apache License 2.0") {
+
+  }
+}
 
 // // TODO: Create a function that returns the license link
 // // If there is no license, return an empty string
@@ -12,7 +20,7 @@
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(userResponses) {
-  return `# ${userResponses.title}
+  return `# ${userResponses.title}  
 
 ## Description 
 
