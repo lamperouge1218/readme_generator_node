@@ -19,9 +19,12 @@ function generateMarkdown(userResponses) {
 ${userResponses.description}
 
 ## Table of Contents
+-- [Installation](#installation)\n
 -- [Usage](#usage)\n
--- [Credits](#credits)\n
--- [License](#license)
+-- [License](#license)\n
+-- [Contributing](#contributing)\n
+-- [Tests](#tests)\n
+-- [Questions](#questions)
 
 ## Installation
   
@@ -33,7 +36,6 @@ ${userResponses.usage}
 
 ## License
 ${userResponses.license}
-
 
 ## Contributing
 ${userResponses.contributing}
