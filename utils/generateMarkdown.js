@@ -56,7 +56,7 @@ ${userResponses.usage}
 
 ## License
 
-This project is protected under the [${userResponses.license}](${renderLicenseLink(userResponses)}) license. (2021) (Phil Bohn)
+This project is protected under the [${userResponses.license}](${renderLicenseLink(userResponses)}) license. (${userResponses.year}) (${userResponses.name})
 
 ## Contributing
 
