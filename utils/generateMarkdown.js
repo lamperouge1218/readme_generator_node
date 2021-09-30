@@ -8,6 +8,19 @@ function renderLicenseBadge(userResponses) {
   }
 }
 
+// TODO: Create a function that returns the license link
+// If there is no license, return an empty string
+function renderLicenseLink(userResponses) {
+  if (userResponses.license === "MIT") {
+    return "https://choosealicense.com/licenses/mit/"
+  } else if (userResponses.license === "GNU GPLv3") {
+    return "https://choosealicense.com/licenses/gpl-3.0/"
+  } else if (userResponses.license === "Apache License 2.0") {
+    return "https://choosealicense.com/licenses/apache-2.0/"
+  }
+}
+
+
 function generateMarkdown(userResponses) {
   return `# ${userResponses.title}  
 
@@ -43,7 +56,7 @@ ${userResponses.usage}
 
 ## License
 
-This project is protected under the ${userResponses.license} license. (2021) (Phil Bohn)
+This project is protected under the [${userResponses.license}](${renderLicenseLink(userResponses)}) license. (2021) (Phil Bohn)
 
 ## Contributing
 

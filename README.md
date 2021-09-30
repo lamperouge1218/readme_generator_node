@@ -1,10 +1,10 @@
-# Professional README Generator  
+# sdfasla  
 
-![License Badge](https://img.shields.io/badge/license-MIT-blue)
+![License Badge](https://img.shields.io/badge/license-GNU%20GPLv3-red)
 
 ## Description 
 
-Taking user input, generate a professional README.md file so that more time can be spent working on the project itself.
+fjasjdjfja
 
 ## Table of Contents
 
@@ -24,28 +24,28 @@ Taking user input, generate a professional README.md file so that more time can 
   
 To install necessary dependencies, run the following command:
 
-    npm i
+    slfldlfls
 
 ## Usage
 
-Initiate the function with "node index.js". Once done, answer the questions sequentially. After user input is collected, README is generated and can be used in the project.
+ldslfsalflalfa
 
 ## License
 
-This project is protected under the MIT license. (2021) (Phil Bohn)
+This project is protected under the [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/) license. (2021) (Phil Bohn)
 
 ## Contributing
 
-N/A
+sdjfjaajfjsaf
 
 ## Tests
 
-N/A
+sllflsdfldf
 
 ## Questions
 
 If there any questions regarding this project, I can be contacted in the following places:
 
-GitHub: [@lamperouge1218](https://github.com/lamperouge1218)
+GitHub: [@test](https://github.com/test)
 
-Email: philbohn1791@gmail.com
+Email: test
