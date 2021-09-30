@@ -17,7 +17,10 @@ function generateMarkdown(userResponses) {
   ## Description \n
   ${userResponses.description}
 
-  ## ${"Table of Contents"}\n${"-- [Usage](#usage)"}\n${"-- [Credits](#credits)"}\n${"-- [License](#license)"}
+  ## Table of Contents\n
+    -- [Usage](#usage)\n
+    -- [Credits](#credits)\n
+    -- [License](#license)
 
   ## Installation
 
