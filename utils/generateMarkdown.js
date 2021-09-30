@@ -23,16 +23,27 @@ function generateMarkdown(userResponses) {
     -- [License](#license)
 
   ## Installation
+  
+  To install necessary dependencies, run the following command:
+  ${userResponses.installation}
 
   ## Usage
-   
+   ${userResponses.usage}
+
   ## License
+  ${userResponses.license}
+
 
   ## Contributing
+  ${userResponses.contributing}
 
   ## Tests
+  ${userResponses.tests}
 
   ## Questions
+  If there any questions regarding this project, I can be contacted in the following places:
+  GitHub: ${userResponses.questions}
+  Email: ${userResponses.questions2}
 `;
 }
 
